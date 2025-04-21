@@ -212,7 +212,7 @@ body {
 /* CATEGORIES HEADER */
 .All-categories {
   border-top: 1px solid #dfd9d9;
-  margin-top: 44px;
+  margin-top: 18px;
   display: flex
 ;
   align-items: center;
@@ -249,7 +249,29 @@ body {
   color: #52c5ed;
 }
 
+.images{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.first-image img{
+  transition: all 0.3s ease;
+}
+.first-image img:hover{
+  transform: scale(0.9);
+}
+.second-image{
+  margin-top: 12px;
+}
 
+.second-image img{
+  height: 90px;
+  width: 700px;
+  transition: all 0.3s ease;
+}
+.second-image img:hover{
+  transform: scale(0.9);
+}
 
 
 
@@ -260,7 +282,7 @@ body {
 }
 .roomsheading h1 {
   text-align: center;
-
+text-transform: uppercase;
   text-decoration: underline;
 }
 
