@@ -105,6 +105,10 @@ body {
   height: 1.4rem;
   width: 2.4rem;
 }
+.location svg:hover{
+  fill: #3a77ff;
+  
+}
 .INP input {
   cursor: pointer;
   outline: none;
@@ -117,9 +121,13 @@ body {
 .Arrow svg {
   color: #002f34;
   height: 21px;
-  width: 21px;
+  width: 28px;
   padding: 0px 7px;
   margin-top: 6px;
+}
+.Arrow svg:hover{
+  fill: #3a77ff;
+
 }
 
 /* Second-input-control */
@@ -142,6 +150,10 @@ body {
 .search {
   background-color: #002f34;
   padding: 9px 14px;
+  transition: all 0.3s ease;
+}
+.search:hover{
+  background-color: #586869;
 }
 .search svg {
   fill: #fff;
@@ -227,10 +239,12 @@ body {
 
 
 /* CARDS */
-h1 {
+.roomsheading{
+  margin-top: 66px;
+}
+.roomsheading h1 {
   text-align: center;
-  position: relative;
-  top: 52px;
+
   text-decoration: underline;
 }
 
@@ -253,7 +267,6 @@ cursor: pointer;
 }
 .box:hover{
   transform: scale(1.02);
-  box-shadow: 0px 0px 23px gray;
 }
 .box img {
     box-shadow: 0 0 3px #030202;
