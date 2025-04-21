@@ -3,6 +3,10 @@
   margin: 0px;
   text-decoration: none;
 }
+.MAX-CONTAINER{
+    max-width: 1440px;
+    margin: 0px auto;
+}
 .main1 {
   /* border: 1px solid black; */
   display: flex;
@@ -14,26 +18,31 @@
 }
 
 .logo svg {
-  height: 103px;
-  width: 73px;
+    
+    height: 89px;
+    width: 38px;
 }
+
 .list1 {
-  margin-left: 91px;
+  margin-left: 49px;
   display: flex;
   align-items: center;
 }
 .list1 svg {
-  height: 1.4rem;
-  width: 1.4rem;
-  padding: 14px 15px;
-  background-color: #dbe5e5;
-  border-radius: 50%;
+    height: 18px;
+    width: 21px;
+    padding: 11px 11px;
+    background-color: #dbe5e5;
+    border-radius: 50%;
 }
+.list1 svg:hover{
+    fill: #3A77FF;
 
+}
 
 /* NEXT */
 .list2 {
-  margin-left: 91px;
+  margin-left: 49px;
   display: flex;
   align-items: center;
 }
@@ -43,117 +52,118 @@
   margin-left: 18px;
 }
 .link a {
-  font-size: 21px;
+  font-size: 15px;
   font-family: sans-serif;
   color: black;
   font-weight: 600;
 }
+.link a:hover{
+    color: #3A77FF;
+}
 .list2 svg {
-  height: 1.4rem;
-  width: 1.4rem;
-  padding: 14px 15px;
-  background-color: #dbe5e5;
-  border-radius: 50%;
+    height: 18px;
+    width: 21px;
+    padding: 11px 11px;
+    background-color: #dbe5e5;
+    border-radius: 50%;
+}
+.list2 svg:hover{
+    fill: #3A77FF;
 }
 /* ****************DONE-TOP-HEADER******* */
 
-
 /* SECOND-HEADER-START */
-.Main2{
-    display: flex
-    ;
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 24px;
+.Main2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
 }
 
-.threebox{
-    max-width: max-content;
-    border: 1px solid black;
-    
+.threebox {
+  max-width: max-content;
+  border: 1px solid black;
 }
-.First-input-control{
-    cursor: pointer;
-    border: 1px solid rgb(194 195 195);
-    display: flex;
-    align-items: center;
-    border-radius: 3px;
-    margin-left: 119px;
+.First-input-control {
+  cursor: pointer;
+  border: 1px solid rgb(194 195 195);
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-left: 110px;
 }
-.location svg{
-    color: #002F34;
-    height: 2.4rem;
+.location svg {
+    color: #002f34;
+    height: 1.4rem;
     width: 2.4rem;
 }
-.INP input{
-    cursor: pointer;
-    outline: none;
-    border: none;
-    width: 286px;
-    height: 50px;
-    font-size: 19px;
-    padding: 5px 4px;
+.INP input {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 176px;
+  height: 31px;
+  font-size: 15px;
+  padding: 5px 4px;
 }
-.Arrow svg{
-    color: #002F34;
-    height: 35px;
-    width: 35px;
-    padding: 0px 14px;
+.Arrow svg {
+    color: #002f34;
+    height: 21px;
+    width: 21px;
+    padding: 0px 7px;
+    margin-top: 6px;
 }
 
 /* Second-input-control */
 
-.Second-input-control{
-
-    border: 1px solid rgb(194 195 195);
-    display: flex;
-    align-items: center;
-    border-radius: 3px;
+.Second-input-control {
+  border: 1px solid rgb(194 195 195);
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
 }
-.INP2 input{
-    cursor: pointer;
-    height: 47px;
-    width: 954px;
-    outline: none;
-    font-size: 20px;
-    padding: 5px 4px;
-    border: none;
-
-
-} 
-.search{
-    background-color: #002F34;
-    padding: 9px 14px;
+.INP2 input {
+  cursor: pointer;
+  height: 47px;
+  width: 954px;
+  outline: none;
+  font-size: 20px;
+  padding: 5px 4px;
+  border: none;
 }
-.search svg{
-    fill: #fff;
-    height: 2.4rem;
-    width: 2.4rem;
-   
+.search {
+  background-color: #002f34;
+  padding: 9px 14px;
+}
+.search svg {
+  fill: #fff;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 /* THIRD-CONTROL-BUTTON */
-.Third-buttons{
-    display: flex;
-    align-items: center;
-    gap: 12px   ;
+.Third-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.first span{
-    color: #002F34;
-    padding: 12px 12px;
-    font-size: 23px;
-    font-family: sans-serif;
-    font-weight: 600;
+.first span {
+  color: #002f34;
+  padding: 12px 12px;
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
 }
-.second span{
-    border: 7px solid #002F34;
-    color: #002F34;
-    border-radius: 33px;
-    padding: 12px 33px;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 600;
+.first span:hover{
+    text-decoration: none;
 }
-
-
-
+.second span {
+  border: 7px solid #002f34;
+  color: #002f34;
+  border-radius: 33px;
+  padding: 12px 33px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
