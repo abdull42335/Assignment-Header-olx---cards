@@ -15,7 +15,13 @@ body {
   max-width: 1440px;
   margin: 0px auto;
 }
-
+.Position-Sticky{
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  padding: 14px 0px;
+}
 .main1 {
   display: flex;
   align-items: center;
@@ -297,9 +303,9 @@ text-transform: uppercase;
   margin-top: 48px;
 }
 .box {
-  border-radius: 12px;
+  /* border-radius: 12px; */
 cursor: pointer;
-  height: 450px;
+  height: 350px;
   width: 300px;
   transition: all 0.3s ease;
 }
@@ -308,9 +314,9 @@ cursor: pointer;
 }
 .box img {
     box-shadow: 0 0 3px #030202;
-  height: 300px;
+  height: 200px;
   width: 300px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
  
 }
 
@@ -331,3 +337,4 @@ cursor: pointer;
 .box span {
   float: inline-end;
 }
+
