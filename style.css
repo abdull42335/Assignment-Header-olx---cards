@@ -226,7 +226,8 @@ body {
   align-items: center;
   padding: 25px 13px;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-left: -438px;
+
 }
 .heading {
   margin-left: 96px;
@@ -475,5 +476,15 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 88px;
+  }
+  .First-input-control{
+    margin-left: 0px;
+  }
+  .All-categories{
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+  .heading{
+    margin-left: 0px;
   }
 }
