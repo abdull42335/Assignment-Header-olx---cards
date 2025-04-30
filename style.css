@@ -1,4 +1,4 @@
-:root{
+:root {
   --textdarkblue: #002f34;
 }
 
@@ -231,7 +231,6 @@ body {
   padding: 25px 13px;
   flex-wrap: wrap;
   margin-left: -438px;
-
 }
 .heading {
   margin-left: 96px;
@@ -389,7 +388,7 @@ body {
 
 /* Second last footer Control */
 .Second-last-Footer {
-  background-color: #F7F8F9;
+  background-color: #f7f8f9;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -436,42 +435,83 @@ body {
 }
 
 /* LAST FOOTER STARTED */
-.Last-footer-main{
-  background-color: #EBEEEF;
+.Last-footer-main {
+  background-color: #ebeeef;
   padding: 32px 0px;
-  display: flex
-;
+  display: flex;
   align-items: center;
   width: 100%;
   justify-content: flex-start;
-  /* gap: 37px; */
- 
 }
-.box2{
-width: 210px;
-margin-left: 81px;
+.box2 {
+  width: 210px;
+  margin-left: 81px;
 }
-.box2 h3{
+.box2 h3 {
   font-size: 16px;
-  color: #002F34;
+  color: #002f34;
   padding: 14px;
 }
-.box2 a{
+.box2 a {
   font-size: 12px;
-    color: #718D8F;
-    padding: 16px;
-    line-height: 22px;
+  color: #718d8f;
+  padding: 16px;
+  line-height: 22px;
+}
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 724px;
+
+}
+.box5 h3 {
+  font-size: 16px;
+  color: #002f34;
+  padding: 14px;
+  margin-right: 163px;
+  line-height: 0px;
+}
+.flex-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 173px;
+  margin-bottom: 22px;
+}
+.flex-icons img {
+  height: 22px;
+  width: 22px;
+}
+.App-flex {
+  display: flex;
+  align-items: center;
+}
+.App-flex img {
+  height: 25px;
+  width: 90px;
 }
 
+.last-blue-footer{
+  display: flex
+  ;
+      align-items: center;
+      justify-content: right;
+      padding: 19px;
+      width: 100%;
+      gap: 10px;
+      color: white;
+      background-color: var(--textdarkblue);
+}
 
-
-
-
-
-
-
-
-
+.boxlast h6{
+  font-size: 12px;
+ 
+}
+.boxlast span{
+  font-size: 11px;
+  margin-right: 94px;
+}
 
 @media screen and (max-width: 600px) {
   .Second-input-control {
@@ -521,15 +561,15 @@ margin-left: 81px;
     justify-content: center;
     margin-right: 88px;
   }
-  .First-input-control{
+  .First-input-control {
     margin-left: 0px;
   }
-  .All-categories{
+  .All-categories {
     flex-wrap: wrap;
     margin-left: 0px;
     justify-content: center;
   }
-  .heading{
+  .heading {
     margin-left: 0px;
   }
 }
