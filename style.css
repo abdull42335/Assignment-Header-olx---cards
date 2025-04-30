@@ -450,5 +450,25 @@ display: flex;
   justify-content: center;
 }
 
-
+.Second-last-Footer{
+  display: none;
+}
+.box{
+  width: 215px;
+ 
+  height: 270px;
+}
+.box img{
+  width: 214px;
+  height: 156px;
+}
+.car-box{
+  width: 215px;
+ 
+  height: 270px;
+}
+.car-box img{
+  width: 214px;
+  height: 156px;
+}
 }
