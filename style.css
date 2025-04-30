@@ -220,6 +220,8 @@ body {
   display: flex;
   align-items: center;
   padding: 25px 13px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .heading {
   margin-left: 96px;
@@ -260,6 +262,7 @@ body {
 }
 .first-image img {
   transition: all 0.3s ease;
+  width: 100%;
   
 }
 .first-image img:hover {
@@ -267,11 +270,14 @@ body {
 }
 .second-image {
   margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .second-image img {
   height: 90px;
-  width: 700px;
+  width: 40%;
   transition: all 0.3s ease;
 }
 .second-image img:hover {
@@ -304,7 +310,7 @@ body {
 width: 21%;
   cursor: pointer;
   height: 350px;
-  width: 300px;
+
   transition: all 0.3s ease;
 }
 .box:hover {
@@ -418,4 +424,18 @@ width: 21%;
 .Right-app-svgs img{
   height: 34px;
   width: 115px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+.Second-input-control{
+  display: none;
+}
+.Third-buttons{
+  display: none;
+}
+
+
 }
