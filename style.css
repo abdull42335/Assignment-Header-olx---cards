@@ -453,6 +453,9 @@ display: flex;
 .Second-last-Footer{
   display: none;
 }
+.boxes{
+  gap: 39px;
+}
 .box{
   width: 215px;
  
