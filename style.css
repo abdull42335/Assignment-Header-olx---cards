@@ -1,3 +1,7 @@
+:root{
+  --textdarkblue: #002f34;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -11,10 +15,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
-/* .MAX-CONTAINER {
+.MAX-CONTAINER {
   max-width: 1440px;
   margin: 0px auto;
-} */
+}
 .Position-Sticky {
   background-color: white;
   position: sticky;
@@ -127,7 +131,7 @@ body {
 }
 
 .Arrow svg {
-  color: #002f34;
+  color: var(--textdarkblue);
   height: 21px;
   width: 28px;
   padding: 0px 7px;
@@ -385,10 +389,12 @@ body {
 
 /* Second last footer Control */
 .Second-last-Footer {
+  background-color: #F7F8F9;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 22px;
+  width: 100%;
   border-bottom: 1px solid #d3dbdc;
 }
 .last-left-image {
@@ -428,6 +434,44 @@ body {
   height: 34px;
   width: 115px;
 }
+
+/* LAST FOOTER STARTED */
+.Last-footer-main{
+  background-color: #EBEEEF;
+  padding: 32px 0px;
+  display: flex
+;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  /* gap: 37px; */
+ 
+}
+.box2{
+width: 210px;
+margin-left: 81px;
+}
+.box2 h3{
+  font-size: 16px;
+  color: #002F34;
+  padding: 14px;
+}
+.box2 a{
+  font-size: 12px;
+    color: #718D8F;
+    padding: 16px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .Second-input-control {
