@@ -212,7 +212,7 @@ body {
   border-left: 5px solid #ccff12;
   border-bottom: 5px solid rgb(71, 68, 146);
 }
-.align-center{
+.align-center {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,7 +268,6 @@ body {
 .first-image img {
   transition: all 0.3s ease;
   width: 100%;
-  
 }
 .first-image img:hover {
   transform: scale(0.9);
@@ -295,12 +294,11 @@ body {
 
   width: 80%;
   /* padding: 12px; */
-   margin-top: 33px;
-  /* margin-left: 82px; */ 
+  margin-top: 33px;
+  /* margin-left: 82px; */
 }
-.headings h2{
+.headings h2 {
   /* width: 40%; */
-  
 }
 
 /* BOXES */
@@ -316,7 +314,7 @@ body {
 }
 
 .box {
-width: 304px;
+  width: 304px;
   cursor: pointer;
   height: 350px;
 
@@ -346,7 +344,7 @@ width: 304px;
   float: inline-end;
 }
 /* Car Selling-controls */
-.boxes-cars{
+.boxes-cars {
   /* border: 1px solid black; */
   display: flex;
   justify-content: center;
@@ -356,12 +354,11 @@ width: 304px;
   align-items: center;
   width: 100%;
 }
-.car-box{
+.car-box {
   cursor: pointer;
   height: 350px;
   width: 304px;
   transition: all 0.3s ease;
-  
 }
 .car-box:hover {
   transform: scale(1.02);
@@ -370,7 +367,6 @@ width: 304px;
   box-shadow: 0 0 3px #030202;
   height: 200px;
   width: 300px;
- 
 }
 .car-box p {
   opacity: 0.6;
@@ -387,91 +383,97 @@ width: 304px;
 }
 
 /* Second last footer Control */
-.Second-last-Footer{
+.Second-last-Footer {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 22px;
-  border-bottom: 1px solid #D3DBDC;
+  border-bottom: 1px solid #d3dbdc;
 }
-.last-left-image{
+.last-left-image {
   width: 36%;
   margin-left: 18px;
-  
 }
-.last-left-image img{
+.last-left-image img {
   width: 80%;
   height: 180px;
- 
 }
-.center-text h1{
+.center-text h1 {
   font-size: 33px;
   line-height: 78px;
-  color: #002F34;
+  color: #002f34;
 }
-.center-text p{
+.center-text p {
   font-size: 21px;
-  color: #002F34;
+  color: #002f34;
 }
-.Right-app-svgs{
-  display: flex
-  ;
-      flex-direction: column;
-      align-items: center;
-      height: 125px;
-      border-left: 2px solid #C6CFD1;
-      padding: 9px 39px;
+.Right-app-svgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 125px;
+  border-left: 2px solid #c6cfd1;
+  padding: 9px 39px;
 }
-.Right-app-svgs h4{
-  margin: 27px -171px;   
+.Right-app-svgs h4 {
+  margin: 27px -171px;
 }
-.flex-svgs{
+.flex-svgs {
   display: flex;
   align-items: center;
 }
 
-.Right-app-svgs img{
+.Right-app-svgs img {
   height: 34px;
   width: 115px;
 }
 
-
-
-
 @media screen and (max-width: 600px) {
-.Second-input-control{
-  display: none;
-}
-.Third-buttons{
-  display: none;
-}
-.headings{
-display: flex;
-  justify-content: center;
-}
+  .Second-input-control {
+    display: none;
+  }
+  .Third-buttons {
+    display: none;
+  }
+  .headings {
+    display: flex;
+    justify-content: center;
+  }
 
-.Second-last-Footer{
-  display: none;
-}
-.boxes{
-  gap: 39px;
-}
-.box{
-  width: 215px;
- 
-  height: 270px;
-}
-.box img{
-  width: 214px;
-  height: 156px;
-}
-.car-box{
-  width: 215px;
- 
-  height: 270px;
-}
-.car-box img{
-  width: 214px;
-  height: 156px;
-}
+  .Second-last-Footer {
+    display: none;
+  }
+  .boxes {
+    gap: 39px;
+  }
+  .box {
+    width: 215px;
+
+    height: 270px;
+  }
+  .box img {
+    width: 214px;
+    height: 156px;
+  }
+  .car-box {
+    width: 215px;
+
+    height: 270px;
+  }
+  .car-box img {
+    width: 214px;
+    height: 156px;
+  }
+  .Position-Sticky {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 88px;
+  }
 }
