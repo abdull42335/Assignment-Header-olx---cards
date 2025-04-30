@@ -445,7 +445,7 @@ body {
     display: none;
   }
   .boxes {
-    gap: 39px;
+    gap: 15px;
   }
   .box {
     width: 215px;
