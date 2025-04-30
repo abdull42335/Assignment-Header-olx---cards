@@ -11,10 +11,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.MAX-CONTAINER {
+/* .MAX-CONTAINER {
   max-width: 1440px;
   margin: 0px auto;
-}
+} */
 .Position-Sticky {
   background-color: white;
   position: sticky;
@@ -212,7 +212,12 @@ body {
   border-left: 5px solid #ccff12;
   border-bottom: 5px solid rgb(71, 68, 146);
 }
-
+.align-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 /* CATEGORIES HEADER */
 .All-categories {
   border-top: 1px solid #dfd9d9;
@@ -288,10 +293,14 @@ body {
   display: flex;
   align-items: center;
 
-  width: 100%;
-  padding: 12px;
-  margin-top: 33px;
-  margin-left: 82px;
+  width: 80%;
+  /* padding: 12px; */
+   margin-top: 33px;
+  /* margin-left: 82px; */ 
+}
+.headings h2{
+  /* width: 40%; */
+  
 }
 
 /* BOXES */
@@ -307,7 +316,7 @@ body {
 }
 
 .box {
-width: 21%;
+width: 304px;
   cursor: pointer;
   height: 350px;
 
@@ -350,7 +359,7 @@ width: 21%;
 .car-box{
   cursor: pointer;
   height: 350px;
-  width: 21%;
+  width: 304px;
   transition: all 0.3s ease;
   
 }
@@ -435,6 +444,10 @@ width: 21%;
 }
 .Third-buttons{
   display: none;
+}
+.headings{
+display: flex;
+  justify-content: center;
 }
 
 
