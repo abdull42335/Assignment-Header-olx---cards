@@ -1,5 +1,6 @@
 :root {
   --textdarkblue: #002f34;
+  --boxshadow: #030202;
 }
 
 * {
@@ -11,7 +12,7 @@
   font-family: sans-serif;
 }
 body {
-  height: 100vh;
+height: 100vh;
   margin: 0px;
   padding: 0px;
 }
@@ -113,7 +114,7 @@ body {
   border: 1px solid #52c5ed;
 }
 .location svg {
-  color: #002f34;
+  color: var(--textdarkblue);
   height: 1.4rem;
   width: 2.4rem;
 }
@@ -162,7 +163,7 @@ body {
   outline: 1px solid #52c5ed;
 }
 .search {
-  background-color: #002f34;
+  background-color: var(--textdarkblue);
   padding: 10px 7px;
   transition: all 0.3s ease;
 }
@@ -185,7 +186,7 @@ body {
   gap: 12px;
 }
 .first span {
-  color: #002f34;
+  color: var(--textdarkblue);
   padding: 0px 13px;
   font-size: 15px;
   font-family: sans-serif;
@@ -197,7 +198,7 @@ body {
 }
 .second span {
   cursor: pointer;
-  color: #002f34;
+  color: var(--textdarkblue);
   border-radius: 30px;
   padding: 9px 26px;
   font-size: 13px;
@@ -328,7 +329,7 @@ body {
   transform: scale(1.02);
 }
 .box img {
-  box-shadow: 0 0 3px #030202;
+  box-shadow: 0 0 3px var(--boxshadow);
   height: 200px;
   width: 300px;
   /* border-radius: 12px; */
@@ -349,7 +350,6 @@ body {
 }
 /* Car Selling-controls */
 .boxes-cars {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -368,7 +368,7 @@ body {
   transform: scale(1.02);
 }
 .car-box img {
-  box-shadow: 0 0 3px #030202;
+  box-shadow: 0 0 3px var(--boxshadow);
   height: 200px;
   width: 300px;
 }
@@ -407,11 +407,11 @@ body {
 .center-text h1 {
   font-size: 33px;
   line-height: 78px;
-  color: #002f34;
+  color: var(--textdarkblue);
 }
 .center-text p {
   font-size: 21px;
-  color: #002f34;
+  color: var();
 }
 .Right-app-svgs {
   display: flex;
@@ -444,12 +444,12 @@ body {
   justify-content: flex-start;
 }
 .box2 {
-  width: 210px;
-  margin-left: 81px;
+  width: 529px;
+  margin-left: 58px;
 }
 .box2 h3 {
   font-size: 16px;
-  color: #002f34;
+  color: var(--textdarkblue);
   padding: 14px;
 }
 .box2 a {
@@ -467,7 +467,7 @@ body {
 }
 .box5 h3 {
   font-size: 16px;
-  color: #002f34;
+  color: var(--textdarkblue);
   padding: 14px;
   margin-right: 163px;
   line-height: 0px;
@@ -537,7 +537,7 @@ body {
     width: 214px;
     height: 156px;
   }
-  .boxes-cars{
+  .boxes-cars {
     gap: 12px;
   }
   .car-box {
@@ -568,27 +568,34 @@ body {
     flex-wrap: wrap;
     margin-left: 0px;
     justify-content: center;
+align-items: center;
+  }
+  .list-categories li{
+    margin-left: 4px;
+    width: 51px;
+    font-size: 13px;
+  
   }
   .heading {
     margin-left: 0px;
   }
-  .Last-footer-main{
+  .Last-footer-main {
     flex-direction: column;
 
     text-align: center;
   }
-  .box2{
+  .box2 {
     margin-left: 0px;
+    width: 100%;
   }
-  .box5 h3{
+  .box5 h3 {
     margin-right: 0px;
-   
   }
-  .flex-icons{
+  .flex-icons {
     margin-right: 0px;
     margin-bottom: 1px;
   }
- .App-flex{
-  flex-direction: column;
- }
+  .App-flex {
+    flex-direction: column;
+  }
 }
