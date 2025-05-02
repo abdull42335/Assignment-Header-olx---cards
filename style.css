@@ -183,7 +183,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 3px;
-  width: 100%;
+  
 }
 .INP2 input {
   cursor: pointer;
@@ -376,9 +376,7 @@ body {
 	        animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   
 }
-.box:hover {
-  transform: scale(1.02);
-}
+
 
  @-webkit-keyframes scale-up-center {
   0% {
@@ -406,8 +404,9 @@ body {
   box-shadow: 0 0 3px var(--boxshadow);
   height: 200px;
   width: 300px;
-  /* border-radius: 12px; */
+ transition: all 0.3s ease;
 }
+
 
 .box p {
   opacity: 0.6;
@@ -613,7 +612,10 @@ body {
     display: flex;
     justify-content: center;
   }
-
+.first-image{
+  margin-left: 10px;
+  margin-right: 10px;
+}
   
   .boxes {
     gap: 15px;
@@ -660,6 +662,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .images{
+   
   }
   .list-categories li {
     margin-left: 20px;
