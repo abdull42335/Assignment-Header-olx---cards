@@ -616,6 +616,11 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+.second-image img{
+  width: 60%;
+  height: 80px;
+
+}
   
   .boxes {
     gap: 15px;
