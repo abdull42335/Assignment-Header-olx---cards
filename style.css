@@ -586,7 +586,7 @@ body {
   .Main2 {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
   .Second-input-control {
     width: 100%;
