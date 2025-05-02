@@ -364,9 +364,12 @@ body {
   cursor: pointer;
   height: 350px;
   transition: all 0.3s ease;
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+  /* -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
-  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both; */
+}
+.box:hover {
+  transform: scale(1.02);
 }
 
 @-webkit-keyframes scale-up-center {
@@ -425,9 +428,9 @@ body {
   height: 350px;
   width: 304px;
   transition: all 0.3s ease;
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+  /* -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
-  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both; */
 }
 .car-box:hover {
   transform: scale(1.02);
@@ -497,6 +500,10 @@ body {
 .Right-app-svgs img {
   height: 34px;
   width: 115px;
+  transition: all 0.3s ease;
+}
+.Right-app-svgs img:hover{
+  transform: scale(0.9);
 }
 
 /* LAST FOOTER STARTED */
@@ -523,6 +530,10 @@ body {
   color: #718d8f;
   padding: 16px;
   line-height: 22px;
+ 
+}
+.box2 a:hover{
+  text-decoration: underline;
 }
 .box5 {
   display: flex;
@@ -547,6 +558,10 @@ body {
 .flex-icons img {
   height: 22px;
   width: 22px;
+  transition: all 0.3s ease;
+}
+.flex-icons img:hover{
+  transform: scale(0.9);
 }
 .App-flex {
   display: flex;
@@ -555,6 +570,10 @@ body {
 .App-flex img {
   height: 25px;
   width: 90px;
+  transition: all 0.3s ease;
+}
+.App-flex img:hover{
+  transform: scale(0.9);
 }
 
 .last-blue-footer {
