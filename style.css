@@ -19,38 +19,40 @@ body {
 .MAX-CONTAINER {
   max-width: 1440px;
   margin: 0px auto;
-  -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-elliptic-top-fwd 0.7s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
 }
 @-webkit-keyframes slide-in-elliptic-top-fwd {
   0% {
     -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
-            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
     -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0) rotateX(0) scale(1);
-            transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
     -webkit-transform-origin: 50% 1400px;
-            transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
     opacity: 1;
   }
 }
 @keyframes slide-in-elliptic-top-fwd {
   0% {
     -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
-            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
     -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0) rotateX(0) scale(1);
-            transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
     -webkit-transform-origin: 50% 1400px;
-            transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
     opacity: 1;
   }
 }
@@ -183,7 +185,6 @@ body {
   display: flex;
   align-items: center;
   border-radius: 3px;
-  
 }
 .INP2 input {
   cursor: pointer;
@@ -232,7 +233,6 @@ body {
   text-decoration: none;
 }
 
-
 .second span {
   cursor: pointer;
   color: var(--textdarkblue);
@@ -247,9 +247,6 @@ body {
   border-left: 5px solid #ffce32;
   border-bottom: 5px solid aquamarine;
   transition: all 1s ease;
-
-
-
 }
 
 .second span:hover {
@@ -300,10 +297,7 @@ body {
   margin-left: 20px;
   color: #6a6666;
   font-size: 14px;
- 
 }
-
- 
 
 .list-categories li:hover {
   color: #52c5ed;
@@ -318,7 +312,7 @@ body {
 .first-image img {
   transition: all 0.3s ease;
   width: 100%;
-   -webkit-animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .first-image img:hover {
   transform: scale(0.9);
@@ -334,7 +328,7 @@ body {
   height: 90px;
   width: 40%;
   transition: all 0.3s ease;
-  	        animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .second-image img:hover {
   transform: scale(0.9);
@@ -365,48 +359,43 @@ body {
   align-items: center;
 }
 
-
-
 .box {
   width: 304px;
   cursor: pointer;
   height: 350px;
   transition: all 0.3s ease;
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-
- @-webkit-keyframes scale-up-center {
+@-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
-
 
 .box img {
   box-shadow: 0 0 3px var(--boxshadow);
   height: 200px;
   width: 300px;
- transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-
 
 .box p {
   opacity: 0.6;
@@ -436,8 +425,9 @@ body {
   height: 350px;
   width: 304px;
   transition: all 0.3s ease;
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .car-box:hover {
   transform: scale(1.02);
@@ -593,35 +583,34 @@ body {
   .Third-buttons {
     display: none;
   } */
-   .Main2{
+  .Main2 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-   }
-   .Second-input-control{
+  }
+  .Second-input-control {
     width: 100%;
-   }
-   .INP2{
+  }
+  .INP2 {
     width: 100%;
-    
-   }
-   .INP2 input{
+  }
+
+  .INP2 input {
     width: 100%;
-   }
+  }
   .headings {
     display: flex;
     justify-content: center;
   }
-.first-image{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.second-image img{
-  width: 60%;
-  height: 80px;
+  .first-image {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .second-image img {
+    width: 60%;
+    height: 80px;
+  }
 
-}
-  
   .boxes {
     gap: 15px;
   }
@@ -667,11 +656,10 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin-left: 10px;
+    margin-left: 7px;
     margin-right: 10px;
   }
-  .images{
-   
+  .images {
   }
   .list-categories li {
     margin-left: 20px;
@@ -681,22 +669,22 @@ body {
   .heading {
     margin-left: 0px;
   }
-  .Second-last-Footer{
+  .Second-last-Footer {
     flex-direction: column;
     align-items: center;
   }
-  .last-left-image{
+  .last-left-image {
     width: 100%;
     margin-left: 0px;
     margin-top: 50px;
   }
-  .last-left-image img{
+  .last-left-image img {
     width: 100%;
   }
-  .center-text{
+  .center-text {
     text-align: center;
   }
-  .Right-app-svgs{
+  .Right-app-svgs {
     align-items: center;
     border: none;
     text-align: center;
@@ -706,12 +694,12 @@ body {
 
     text-align: center;
   }
-  .last-blue-footer{
+  .last-blue-footer {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .boxlast span{
+  .boxlast span {
     margin-right: 0px;
   }
   .box2 {
