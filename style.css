@@ -659,6 +659,7 @@ body {
     margin-left: 0px;
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
   .list-categories li {
     margin-left: 20px;
