@@ -19,6 +19,40 @@ body {
 .MAX-CONTAINER {
   max-width: 1440px;
   margin: 0px auto;
+  -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
 }
 .Position-Sticky {
   background-color: white;
@@ -196,6 +230,8 @@ body {
 .first span:hover {
   text-decoration: none;
 }
+
+
 .second span {
   cursor: pointer;
   color: var(--textdarkblue);
@@ -210,7 +246,11 @@ body {
   border-left: 5px solid #ffce32;
   border-bottom: 5px solid aquamarine;
   transition: all 1s ease;
+
+
+
 }
+
 .second span:hover {
   border-top: 5px solid #1e545b;
   border-right: 5px solid #bbb3bb;
@@ -259,7 +299,11 @@ body {
   margin-left: 20px;
   color: #6a6666;
   font-size: 14px;
+ 
 }
+
+ 
+
 .list-categories li:hover {
   color: #52c5ed;
 }
@@ -273,6 +317,7 @@ body {
 .first-image img {
   transition: all 0.3s ease;
   width: 100%;
+   -webkit-animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .first-image img:hover {
   transform: scale(0.9);
@@ -288,6 +333,7 @@ body {
   height: 90px;
   width: 40%;
   transition: all 0.3s ease;
+  	        animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .second-image img:hover {
   transform: scale(0.9);
@@ -318,16 +364,43 @@ body {
   align-items: center;
 }
 
+
+
 .box {
   width: 304px;
   cursor: pointer;
   height: 350px;
-
   transition: all 0.3s ease;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  
 }
 .box:hover {
   transform: scale(1.02);
 }
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
 .box img {
   box-shadow: 0 0 3px var(--boxshadow);
   height: 200px;
@@ -363,6 +436,8 @@ body {
   height: 350px;
   width: 304px;
   transition: all 0.3s ease;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .car-box:hover {
   transform: scale(1.02);
@@ -581,7 +656,7 @@ body {
   }
   .Last-footer-main {
     flex-direction: column;
-  
+
     text-align: center;
   }
   .box2 {
@@ -599,5 +674,3 @@ body {
     flex-direction: column;
   }
 }
-
-
