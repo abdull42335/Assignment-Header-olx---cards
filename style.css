@@ -502,7 +502,7 @@ body {
   width: 115px;
   transition: all 0.3s ease;
 }
-.Right-app-svgs img:hover{
+.Right-app-svgs img:hover {
   transform: scale(0.9);
 }
 
@@ -515,6 +515,16 @@ body {
   width: 100%;
   justify-content: flex-start;
   flex-direction: row;
+}
+.Flex-responsive-1{
+  display: flex
+  ;
+      width: 34%;
+}
+.Flex-responsive-2{
+  display: flex
+  ;
+      width: 34%;
 }
 .box2 {
   width: 529px;
@@ -530,9 +540,8 @@ body {
   color: #718d8f;
   padding: 16px;
   line-height: 22px;
- 
 }
-.box2 a:hover{
+.box2 a:hover {
   text-decoration: underline;
 }
 .box5 {
@@ -560,7 +569,7 @@ body {
   width: 22px;
   transition: all 0.3s ease;
 }
-.flex-icons img:hover{
+.flex-icons img:hover {
   transform: scale(0.9);
 }
 .App-flex {
@@ -572,7 +581,7 @@ body {
   width: 90px;
   transition: all 0.3s ease;
 }
-.App-flex img:hover{
+.App-flex img:hover {
   transform: scale(0.9);
 }
 
@@ -596,12 +605,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  /* .Second-input-control {
-    display: none;
-  }
-  .Third-buttons {
-    display: none;
-  } */
   .Main2 {
     flex-direction: column;
     align-items: center;
@@ -712,6 +715,21 @@ body {
     flex-direction: column;
 
     text-align: center;
+  }
+  .Flex-responsive-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Flex-responsive-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .box5{
+    margin-top: 12px;
   }
   .last-blue-footer {
     display: flex;
